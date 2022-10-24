@@ -4,8 +4,12 @@
         <meta charset = "utf-8">
         <title>Learn Enough JavaScript</title>
         <script>
-            alert("Hello, world.");
-            console.log('this page contains....');
+            const week = ["Sunday", "Monday", "Tuesday", "Wednesday", 
+                          "Thursday", "Friday", "Saturday", "Sunday"];
+            let now = new Date;
+            let day = week[now.getDay];
+            alert(`Hello, world. Happy ${day}`);
+            
         </script>
     </head>
     <body>
